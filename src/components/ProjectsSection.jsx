@@ -6,20 +6,20 @@ const projects = [
     title: "Fitness Management System",
     description:
       "A personalized platform that tracks fitness progress and gives recommendations based on user activity.",
-    image: "/projects/project1.png",
+    image: "/projects/project2.png",
     tags: ["React.js", "Django", "PostgreSQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sajal9685/FitnessManagement",
   },
   {
     id: 2,
     title: "SkillBridge – Educational Support Platform",
     description:
       "Career assistant for underserved students with syllabus tracking subject-wise notes, and educational YouTube playlist links.",
-    image: "/projects/project1.png",
+    image: "/projects/project3.jpg",
     tags: ["React.js", "Django", "MySQL"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/sajal9685/skillsBridge",
   },
   {
     id: 3,
@@ -28,8 +28,8 @@ const projects = [
       "Real-time concert ticket booking system with Firebase Auth and cloud database.",
     image: "/projects/project1.png",
     tags: ["React.js", "Firebase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://bookingapp-f6150.web.app/",
+    githubUrl: " https://github.com/sajal9685/fusshn_assignment",
   },
 
 ];
@@ -104,7 +104,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/sajalchaturvedi" // update with your GitHub username
+            href="https://github.com/sajal9685"
           >
             See More on GitHub <ArrowRight size={16} />
           </a>

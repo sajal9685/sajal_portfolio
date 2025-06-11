@@ -1,4 +1,4 @@
-import { Briefcase } from "lucide-react";
+import { Briefcase, ExternalLink } from "lucide-react";
 
 export const ExperienceSection = () => {
   return (
@@ -24,12 +24,12 @@ export const ExperienceSection = () => {
                   Jan 2025 – Present
                 </span>
               </div>
-              <p className="text-muted-foreground mb-2">
+              <p className="text-muted-foreground mb-3">
                 As a Full Stack Developer, I built and maintained a feature-rich
-                e-commerce website using Next.js. Implemented Firebase for
-                backend services including authentication and database. Focused on SEO optimization, performance tuning, and reusable component design—resulting in a 25% boost in site speed and usability.
+                e-commerce website using Next.js. Implemented Firebase for backend services including authentication and database. Focused on SEO optimization, performance tuning, and reusable component design—resulting in a 25% boost in site speed and usability.
               </p>
-              <div className="flex flex-wrap gap-2 text-sm">
+
+              <div className="flex flex-wrap gap-2 text-sm mb-4">
                 <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">
                   Next.js
                 </span>
@@ -46,6 +46,15 @@ export const ExperienceSection = () => {
                   Performance Optimization
                 </span>
               </div>
+
+              <a
+                href="https://harshhasthkala.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+              >
+                Visit Website <ExternalLink className="w-4 h-4" />
+              </a>
             </div>
           </div>
 
@@ -64,12 +73,11 @@ export const ExperienceSection = () => {
                   Sep 2024 – Nov 2024
                 </span>
               </div>
-              <p className="text-muted-foreground mb-2">
-                Developed a QR scan-based attendance tracking system with
-                Firebase backend. Created modular, reusable React components for
-                maintainable UI and efficient user interactions.
+              <p className="text-muted-foreground mb-3">
+                Developed a QR scan-based attendance tracking system with Firebase backend. Created modular, reusable React components for maintainable UI and efficient user interactions.
               </p>
-              <div className="flex flex-wrap gap-2 text-sm">
+
+              <div className="flex flex-wrap gap-2 text-sm mb-4">
                 <span className="bg-primary/10 text-primary px-3 py-1 rounded-full">
                   React.js
                 </span>
@@ -80,6 +88,15 @@ export const ExperienceSection = () => {
                   UI Components
                 </span>
               </div>
+
+              <a
+                href="https://scan-app-5d29a.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
+              >
+                View App <ExternalLink className="w-4 h-4" />
+              </a>
             </div>
           </div>
         </div>
