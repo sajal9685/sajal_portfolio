@@ -26,7 +26,7 @@ export const HeroSection = () => {
             transition={{ delay: 0.3, duration: 0.6 }}
             className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto"
           >
-            I’m a Full Stack Developer passionate about building elegant and fast web apps with React, Next.js, and Firebase. Let’s build something amazing together!
+            I’m a Full Stack Developer passionate about building elegant and fast web apps with React, Next.js, Django and SQL. Let’s build something amazing together!
           </motion.p>
 
           <motion.div
