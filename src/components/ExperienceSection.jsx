@@ -95,7 +95,7 @@ export const ExperienceSection = () => {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm text-primary font-medium hover:underline"
               >
-                View App <ExternalLink className="w-4 h-4" />
+                View Website <ExternalLink className="w-4 h-4" />
               </a>
             </div>
           </div>

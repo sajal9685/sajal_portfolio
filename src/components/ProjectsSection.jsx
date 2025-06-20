@@ -2,34 +2,46 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
-    id: 1,
-    title: "Fitness Management System",
-    description:
-      "A personalized platform that tracks fitness progress and gives recommendations based on user activity.",
-    image: "/projects/project2.png",
-    tags: ["React.js", "Django", "PostgreSQL"],
-    demoUrl: "#",
-    githubUrl: "https://github.com/sajal9685/FitnessManagement",
-  },
+  id: 1,
+  title: "CustomerVoice - Ratings & Review System",
+  description:
+    "A full-stack web application that allows users to submit ratings and reviews for products, with features like average rating calculation, duplicate prevention, and tag extraction.",
+  image: new URL(`/projects/project4.png`, import.meta.url).href,
+
+  tags: ["React.js", "Node.js", "MySQL", "Express.js"],
+  demoUrl: "#",
+  githubUrl: "https://github.com/sajal9685/CustomerVoice",
+},
+{
+  id: 2,
+  title: "EchoPass-Ticket Booking App",
+  description:
+    "Real-time concert ticket booking system with Firebase Auth and cloud database.",
+  image: new URL(`/projects/project1.png`, import.meta.url).href,
+  tags: ["React.js", "Firebase"],
+  demoUrl: "https://bookingapp-f6150.web.app/",
+  githubUrl: " https://github.com/sajal9685/fusshn_assignment",
+},
   {
-    id: 2,
+    id: 3,
     title: "SkillBridge – Educational Support Platform",
     description:
       "Career assistant for underserved students with syllabus tracking subject-wise notes, and educational YouTube playlist links.",
-    image: "/projects/project3.jpg",
+    image:new URL(`/projects/project3.jpg`, import.meta.url).href,
     tags: ["React.js", "Django", "MySQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/sajal9685/skillsBridge",
   },
+  
   {
-    id: 3,
-    title: "Concert Ticket Booking App",
+    id: 4,
+    title: "Fitness Management System",
     description:
-      "Real-time concert ticket booking system with Firebase Auth and cloud database.",
-    image: "/projects/project1.png",
-    tags: ["React.js", "Firebase"],
-    demoUrl: "https://bookingapp-f6150.web.app/",
-    githubUrl: " https://github.com/sajal9685/fusshn_assignment",
+      "A personalized platform that tracks fitness progress and gives recommendations based on user activity.",
+    image: new URL(`/projects/project2.png`, import.meta.url).href,
+    tags: ["React.js", "Django", "PostgreSQL"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/sajal9685/FitnessManagement",
   },
 
 ];
