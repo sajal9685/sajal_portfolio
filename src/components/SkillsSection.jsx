@@ -18,6 +18,7 @@ const skills = [
   { name: "SQL", level: 85, category: "database" },
   { name: "MySQL", level: 85, category: "database" },
   { name: "PostgreSQL", level: 80, category: "database" },
+  { name: "MongoDb", level: 85, category: "database" },
   // Tools
 
   { name: "GitHub", level: 99, category: "tools" },
