@@ -34,31 +34,43 @@ const projects = [
 },
 {
   id: 4,
+  title: "BookNote – Notes & Bookmark Manager",
+  description:
+    "A full-stack web app for managing personal notes and bookmarks, featuring JWT authentication, protected routes, and a responsive UI with a custom theme.",
+  image: new URL(`/projects/project4.png`, import.meta.url).href,
+
+  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+  demoUrl: "https://book-note-seven.vercel.app/",
+  githubUrl: "https://github.com/sajal9685/BookNote",
+},
+
+{
+  id: 5,
   title: "Plant Task",
   description:
     "A lightweight task tracker app made with React.js, using localStorage for saving tasks and managing state locally without any backend.",
-  image: new URL(`/projects/project4.png`, import.meta.url).href,
+  image: new URL(`/projects/project5.png`, import.meta.url).href,
   tags: ["React.js"],
   demoUrl: "https://sajal9685.github.io/plant-task/",
   githubUrl: "https://github.com/sajal9685/plant-task",
 },
    {
-    id: 5,
+    id: 6,
     title: "SkillBridge – Educational Support Platform",
     description:
       "Career assistant for underserved students with syllabus tracking subject-wise notes, and educational YouTube playlist links.",
-    image:new URL(`/projects/project5.jpg`, import.meta.url).href,
+    image:new URL(`/projects/project6.jpg`, import.meta.url).href,
     tags: ["React.js", "Django", "MySQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/sajal9685/skillsBridge",
   },
   
   {
-    id: 6,
+    id: 7,
     title: "Fitness Management System",
     description:
       "A personalized platform that tracks fitness progress and gives recommendations based on user activity.",
-    image: new URL(`/projects/project6.png`, import.meta.url).href,
+    image: new URL(`/projects/project7.png`, import.meta.url).href,
     tags: ["React.js", "Django", "PostgreSQL"],
     demoUrl: "#",
     githubUrl: "https://github.com/sajal9685/FitnessManagement",
