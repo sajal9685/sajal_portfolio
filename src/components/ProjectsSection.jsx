@@ -39,7 +39,7 @@ const projects = [
     "A full-stack web app for managing personal notes and bookmarks, featuring JWT authentication, protected routes, and a responsive UI with a custom theme.",
   image: new URL(`/projects/project4.png`, import.meta.url).href,
 
-  tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
+  tags: ["React.js", "Express.js", "MongoDB", "Tailwind"],
   demoUrl: "https://book-note-seven.vercel.app/",
   githubUrl: "https://github.com/sajal9685/BookNote",
 },
